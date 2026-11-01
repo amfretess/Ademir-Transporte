@@ -1,0 +1,35 @@
+/* Fixed photo frames preserve the existing hero and service-card dimensions. */
+.photo-carousel{display:flex;flex-direction:column;position:relative;width:100%;height:100%;min-width:0;isolation:isolate;background:var(--light);color:var(--ink);overflow:hidden}
+.inner-vehicle-panel>.photo-carousel{height:345px;flex:none}
+.service-visual>.photo-carousel{height:100%;width:100%}
+.carousel-stage{position:relative;flex:1;min-height:0;overflow:hidden;touch-action:pan-y}
+.carousel-slide{position:absolute;inset:0;opacity:0;transition:opacity 600ms ease;pointer-events:none;background:var(--light)}
+.carousel-slide[hidden]{display:none}
+.carousel-slide.is-current{opacity:1;z-index:1;pointer-events:auto}
+.photo-carousel[data-carousel-reduced=true] .carousel-slide{transition:none}
+.carousel-slide>img.service-photo{width:100%;height:100%;max-height:none;padding:0;object-fit:contain;object-position:center;background:var(--light)}
+.carousel-controls{visibility:hidden;display:flex;align-items:center;justify-content:space-between;gap:8px;flex:none;height:44px;padding:5px 10px;border-top:1px solid var(--border);background:#FFFFFF;color:var(--ink);position:relative;z-index:2}
+[data-carousel-ready]>.carousel-controls{visibility:visible}
+.carousel-controls button{display:inline-flex;align-items:center;justify-content:center;min-width:32px;height:32px;border:1px solid transparent;border-radius:5px;background:transparent;color:var(--ink);padding:5px;line-height:1;cursor:pointer}
+.carousel-controls button:hover{background:var(--service-soft);border-color:var(--border)}
+.carousel-controls button:active{background:var(--service-soft);transform:translateY(1px)}
+.carousel-controls button:focus-visible{outline:3px solid var(--service-focus);outline-offset:1px}
+.carousel-controls button:disabled{cursor:default}
+.carousel-arrows{display:flex;gap:2px}
+.carousel-arrows [data-carousel-prev] svg{transform:rotate(180deg)}
+.carousel-dots{display:flex;align-items:center;gap:1px}
+.carousel-dots button{min-width:24px;width:24px;padding:5px;border:0}
+.carousel-dots span{width:7px;height:7px;border:1px solid #656B72;border-radius:50%;background:#FFFFFF}
+.carousel-dots [aria-pressed=true] span{background:var(--service-accent);border-color:var(--service-text);width:9px;height:9px}
+.carousel-count{font-size:10px;font-weight:600;white-space:nowrap;color:#5C6168}
+.carousel-controls .carousel-toggle{font-size:10px;font-weight:600;gap:6px;padding-inline:7px;white-space:nowrap;min-width:67px}
+.carousel-play-icon{display:inline-block;width:10px;height:11px;border-left:3px solid currentColor;border-right:3px solid currentColor}
+.carousel-toggle[data-paused=true] .carousel-play-icon{height:0;width:0;border:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid currentColor}
+.carousel-announcement{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.service-card>.service-body{display:block}
+.service-card>.service-body:focus-visible{outline:3px solid var(--service-focus);outline-offset:-5px}
+.service-visual:has(.photo-carousel)>.visual-note{bottom:50px;z-index:2}
+.service-visual:has(.photo-carousel)>.visual-tag{pointer-events:none}
+@media(max-width:1200px){.inner-vehicle-panel>.photo-carousel{height:300px}}
+@media(max-width:760px){.inner-vehicle-panel>.photo-carousel{height:280px}.carousel-controls{padding-inline:8px;gap:4px}.carousel-controls button{min-height:32px}.service-visual>.photo-carousel{height:245px}}
+@media(prefers-reduced-motion:reduce){.carousel-slide{transition:none}}

@@ -1,0 +1,203 @@
+{
+  "approved": [
+    {
+      "source": "Imagem do ChatGPT 25 de out. de 2026, 10_32_26-1.png",
+      "key": "fretes/fretes-caminhonete",
+      "original_sha256": "a9913e3712b465ec1c69f439e2dd26a89616299e499a12467716d50090b2f81c",
+      "original_resolution": [
+        1122,
+        1402
+      ],
+      "blur_regions": [
+        [
+          0,
+          875,
+          165,
+          975
+        ]
+      ],
+      "public_variants": [
+        "/images/fretes/fretes-caminhonete-320-213393635cde.webp",
+        "/images/fretes/fretes-caminhonete-480-98fe61959754.webp",
+        "/images/fretes/fretes-caminhonete-640-5f46883f3449.webp",
+        "/images/fretes/fretes-caminhonete-800-d8780a9db1f0.webp",
+        "/images/fretes/fretes-caminhonete-1024-ffecdb747f14.webp",
+        "/images/fretes/fretes-caminhonete-1122-c495c6a0014e.webp"
+      ],
+      "status": "approved-redacted",
+      "notes": "Revisão visual ampliada; desfoque localizado forte antes de gerar qualquer variante. Sem recriação de detalhes, alteração do veículo, adesivos ou telefones.",
+      "quality_limitation": null
+    },
+    {
+      "source": "Imagem do ChatGPT 25 de out. de 2026, 10_32_26-2.png",
+      "key": "fretes/fretes-reboque",
+      "original_sha256": "c5b6922673baea4922bf1b471f711a853723d2bdcb382d030354f087eb08922e",
+      "original_resolution": [
+        1448,
+        1086
+      ],
+      "blur_regions": [
+        [
+          530,
+          610,
+          625,
+          680
+        ],
+        [
+          1400,
+          525,
+          1448,
+          615
+        ]
+      ],
+      "public_variants": [
+        "/images/fretes/fretes-reboque-320-4227dfd9bcce.webp",
+        "/images/fretes/fretes-reboque-480-0ceb88a04e42.webp",
+        "/images/fretes/fretes-reboque-640-60e4ebc362ff.webp",
+        "/images/fretes/fretes-reboque-800-e2ecd5753cb9.webp",
+        "/images/fretes/fretes-reboque-1024-81b476b5b011.webp",
+        "/images/fretes/fretes-reboque-1280-7d4b721097e1.webp",
+        "/images/fretes/fretes-reboque-1448-0aab1d8f14ab.webp"
+      ],
+      "status": "approved-redacted",
+      "notes": "Revisão visual ampliada; desfoque localizado forte antes de gerar qualquer variante. Sem recriação de detalhes, alteração do veículo, adesivos ou telefones.",
+      "quality_limitation": null
+    },
+    {
+      "source": "Imagem do ChatGPT 25 de out. de 2026, 10_32_28-4.png",
+      "key": "taxi/taxi-bombinhas",
+      "original_sha256": "30b7a3b013248786d7ead808fac63d61fc12c59592bbabf7e023f4a423c15223",
+      "original_resolution": [
+        1448,
+        1086
+      ],
+      "blur_regions": [
+        [
+          75,
+          590,
+          135,
+          735
+        ]
+      ],
+      "public_variants": [
+        "/images/taxi/taxi-bombinhas-320-da763219ca9f.webp",
+        "/images/taxi/taxi-bombinhas-480-c4fa80898ff9.webp",
+        "/images/taxi/taxi-bombinhas-640-6382a9120cf5.webp",
+        "/images/taxi/taxi-bombinhas-800-8c1114c39c87.webp",
+        "/images/taxi/taxi-bombinhas-1024-397e3fdcf7b2.webp",
+        "/images/taxi/taxi-bombinhas-1280-e24a69a94b35.webp",
+        "/images/taxi/taxi-bombinhas-1448-2c402eb2f52b.webp"
+      ],
+      "status": "approved-redacted",
+      "notes": "Revisão visual ampliada; desfoque localizado forte antes de gerar qualquer variante. Sem recriação de detalhes, alteração do veículo, adesivos ou telefones.",
+      "quality_limitation": null
+    },
+    {
+      "source": "Imagem do ChatGPT 25 de out. de 2026, 10_32_28-5.png",
+      "key": "taxi/taxi-veiculo",
+      "original_sha256": "795cd2ac490087dda2d6067d155fdb5a630851bfbf3552328627bdd1392df67f",
+      "original_resolution": [
+        1122,
+        1402
+      ],
+      "blur_regions": [
+        [
+          900,
+          1000,
+          1100,
+          1110
+        ]
+      ],
+      "public_variants": [
+        "/images/taxi/taxi-veiculo-320-4b8255f084b6.webp",
+        "/images/taxi/taxi-veiculo-480-edcc13a308d5.webp",
+        "/images/taxi/taxi-veiculo-640-97ce1589c359.webp",
+        "/images/taxi/taxi-veiculo-800-33cf3f9d515b.webp",
+        "/images/taxi/taxi-veiculo-1024-d14bb9b688ee.webp",
+        "/images/taxi/taxi-veiculo-1122-fad224254925.webp"
+      ],
+      "status": "approved-redacted",
+      "notes": "Revisão visual ampliada; desfoque localizado forte antes de gerar qualquer variante. Sem recriação de detalhes, alteração do veículo, adesivos ou telefones.",
+      "quality_limitation": null
+    },
+    {
+      "source": "Vista-de-Bombinhas-SC.jpg",
+      "key": "bombinhas/bombinhas-vista",
+      "original_sha256": "e61885ff79997486981961063048d8d5a170bb97c73447c53fa29e74f44f998b",
+      "original_resolution": [
+        1920,
+        1080
+      ],
+      "blur_regions": [],
+      "public_variants": [
+        "/images/bombinhas/bombinhas-vista-320-a5f6a5be2d6f.webp",
+        "/images/bombinhas/bombinhas-vista-480-943cf97ef67c.webp",
+        "/images/bombinhas/bombinhas-vista-640-75cfbc65dc32.webp",
+        "/images/bombinhas/bombinhas-vista-800-acbf7641e920.webp",
+        "/images/bombinhas/bombinhas-vista-1024-0430e03c383b.webp",
+        "/images/bombinhas/bombinhas-vista-1280-701f907fa716.webp",
+        "/images/bombinhas/bombinhas-vista-1600-bf4c379ac19a.webp",
+        "/images/bombinhas/bombinhas-vista-1920-08736ff7dd4d.webp"
+      ],
+      "status": "approved-redacted",
+      "notes": "Sem placas identificáveis na fotografia; iluminação e cores do original preservadas.",
+      "quality_limitation": null
+    },
+    {
+      "source": "360_F_1858069814_x4ydhZBIyyGNnJRoYF0QgSL6H7gUuwhe.jpg",
+      "key": "aeroportos/aviao-pista",
+      "original_sha256": "1d4ebebfe02176dd2d961c098f04d28342b8588ab31c31a9541358392bd2caaa",
+      "original_resolution": [
+        641,
+        360
+      ],
+      "blur_regions": [],
+      "public_variants": [
+        "/images/aeroportos/aviao-pista-320-ee7cdb1e5b19.webp",
+        "/images/aeroportos/aviao-pista-480-6425de3c580e.webp",
+        "/images/aeroportos/aviao-pista-640-aeb840e89541.webp",
+        "/images/aeroportos/aviao-pista-641-6cf52c0c2a95.webp"
+      ],
+      "status": "approved-redacted",
+      "notes": "Sem placas identificáveis na fotografia; iluminação e cores do original preservadas.",
+      "quality_limitation": "Original de baixa resolução: solicitar substituição em maior resolução."
+    },
+    {
+      "source": "aa2f8729a824f1a338405f19be484437.jpg",
+      "key": "aeroportos/aviao-pouso",
+      "original_sha256": "3334264a264d461e89b08ce1f77b406e96aaccc127c7d3beda26555a83e5e30e",
+      "original_resolution": [
+        474,
+        711
+      ],
+      "blur_regions": [],
+      "public_variants": [
+        "/images/aeroportos/aviao-pouso-320-f2edd5ce4d2d.webp",
+        "/images/aeroportos/aviao-pouso-474-857469bb6e7e.webp"
+      ],
+      "status": "approved-redacted",
+      "notes": "Sem placas identificáveis na fotografia; iluminação e cores do original preservadas.",
+      "quality_limitation": "Original de baixa resolução: solicitar substituição em maior resolução."
+    }
+  ],
+  "excluded": [
+    {
+      "key": "taxi/taxi-aeroporto",
+      "source": "Imagem do ChatGPT 25 de out. de 2026, 10_32_27-3.png",
+      "status": "manual_review_required",
+      "reason": "Vários veículos de terceiros ao fundo. Não é possível delimitar com confiança todas as placas sem desfoque excessivo. Fotografia excluída do diretório público até revisão manual ou substituição."
+    },
+    {
+      "key": "bombinhas/bombinhas-estrada",
+      "source": "public.jpg",
+      "status": "replacement_required",
+      "reason": "Original de apenas 980 × 580 com compressão visível e veículos pequenos demais para inspecionar as placas. Substituído pela vista panorâmica de 1920 × 1080."
+    },
+    {
+      "key": "aeroportos/aviao-patio",
+      "source": "pexels-photo-23825636.jpg",
+      "status": "manual_review_required",
+      "reason": "Foto não utilizada, com veículos de serviço ao fundo e placas sem delimitação confiável. Retirada do diretório público; original preservado."
+    }
+  ]
+}

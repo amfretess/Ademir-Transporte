@@ -1,0 +1,719 @@
+{
+  "fretes/fretes-caminhonete": {
+    "src": "/images/fretes/fretes-caminhonete-1122-c495c6a0014e.webp",
+    "width": 1122,
+    "height": 1402,
+    "alt": "Caminhonete identificada da Ademir Fretes com reboque",
+    "variants": [
+      {
+        "src": "/images/fretes/fretes-caminhonete-320-213393635cde.webp",
+        "width": 320,
+        "height": 400,
+        "bytes": 51266
+      },
+      {
+        "src": "/images/fretes/fretes-caminhonete-480-98fe61959754.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 108674
+      },
+      {
+        "src": "/images/fretes/fretes-caminhonete-640-5f46883f3449.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 176684
+      },
+      {
+        "src": "/images/fretes/fretes-caminhonete-800-d8780a9db1f0.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 257072
+      },
+      {
+        "src": "/images/fretes/fretes-caminhonete-1024-ffecdb747f14.webp",
+        "width": 1024,
+        "height": 1280,
+        "bytes": 369176
+      },
+      {
+        "src": "/images/fretes/fretes-caminhonete-1122-c495c6a0014e.webp",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 427530
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1122,
+    "originalHeight": 1402
+  },
+  "fretes/fretes-reboque": {
+    "src": "/images/fretes/fretes-reboque-1448-0aab1d8f14ab.webp",
+    "width": 1448,
+    "height": 1086,
+    "alt": "Reboque de dois eixos com móveis transportados",
+    "variants": [
+      {
+        "src": "/images/fretes/fretes-reboque-320-4227dfd9bcce.webp",
+        "width": 320,
+        "height": 240,
+        "bytes": 33918
+      },
+      {
+        "src": "/images/fretes/fretes-reboque-480-0ceb88a04e42.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 72152
+      },
+      {
+        "src": "/images/fretes/fretes-reboque-640-60e4ebc362ff.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 121234
+      },
+      {
+        "src": "/images/fretes/fretes-reboque-800-e2ecd5753cb9.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 179618
+      },
+      {
+        "src": "/images/fretes/fretes-reboque-1024-81b476b5b011.webp",
+        "width": 1024,
+        "height": 768,
+        "bytes": 273408
+      },
+      {
+        "src": "/images/fretes/fretes-reboque-1280-7d4b721097e1.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 382126
+      },
+      {
+        "src": "/images/fretes/fretes-reboque-1448-0aab1d8f14ab.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 461418
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1448,
+    "originalHeight": 1086
+  },
+  "taxi/taxi-bombinhas": {
+    "src": "/images/taxi/taxi-bombinhas-1448-2c402eb2f52b.webp",
+    "width": 1448,
+    "height": 1086,
+    "alt": "Veículo branco de táxi em Bombinhas",
+    "variants": [
+      {
+        "src": "/images/taxi/taxi-bombinhas-320-da763219ca9f.webp",
+        "width": 320,
+        "height": 240,
+        "bytes": 34600
+      },
+      {
+        "src": "/images/taxi/taxi-bombinhas-480-c4fa80898ff9.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 74168
+      },
+      {
+        "src": "/images/taxi/taxi-bombinhas-640-6382a9120cf5.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 123992
+      },
+      {
+        "src": "/images/taxi/taxi-bombinhas-800-8c1114c39c87.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 186904
+      },
+      {
+        "src": "/images/taxi/taxi-bombinhas-1024-397e3fdcf7b2.webp",
+        "width": 1024,
+        "height": 768,
+        "bytes": 284546
+      },
+      {
+        "src": "/images/taxi/taxi-bombinhas-1280-e24a69a94b35.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 400238
+      },
+      {
+        "src": "/images/taxi/taxi-bombinhas-1448-2c402eb2f52b.webp",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 480092
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1448,
+    "originalHeight": 1086
+  },
+  "taxi/taxi-veiculo": {
+    "src": "/images/taxi/taxi-veiculo-1122-fad224254925.webp",
+    "width": 1122,
+    "height": 1402,
+    "alt": "Veículo de táxi com a paisagem de Bombinhas ao fundo",
+    "variants": [
+      {
+        "src": "/images/taxi/taxi-veiculo-320-4b8255f084b6.webp",
+        "width": 320,
+        "height": 400,
+        "bytes": 44340
+      },
+      {
+        "src": "/images/taxi/taxi-veiculo-480-edcc13a308d5.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 91466
+      },
+      {
+        "src": "/images/taxi/taxi-veiculo-640-97ce1589c359.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 150364
+      },
+      {
+        "src": "/images/taxi/taxi-veiculo-800-33cf3f9d515b.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 213110
+      },
+      {
+        "src": "/images/taxi/taxi-veiculo-1024-d14bb9b688ee.webp",
+        "width": 1024,
+        "height": 1280,
+        "bytes": 310910
+      },
+      {
+        "src": "/images/taxi/taxi-veiculo-1122-fad224254925.webp",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 358096
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1122,
+    "originalHeight": 1402
+  },
+  "bombinhas/bombinhas-vista": {
+    "src": "/images/bombinhas/bombinhas-vista-1920-08736ff7dd4d.webp",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Vista panorâmica de Bombinhas ao pôr do sol",
+    "variants": [
+      {
+        "src": "/images/bombinhas/bombinhas-vista-320-a5f6a5be2d6f.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 15992
+      },
+      {
+        "src": "/images/bombinhas/bombinhas-vista-480-943cf97ef67c.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 30994
+      },
+      {
+        "src": "/images/bombinhas/bombinhas-vista-640-75cfbc65dc32.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 50794
+      },
+      {
+        "src": "/images/bombinhas/bombinhas-vista-800-acbf7641e920.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 72512
+      },
+      {
+        "src": "/images/bombinhas/bombinhas-vista-1024-0430e03c383b.webp",
+        "width": 1024,
+        "height": 576,
+        "bytes": 108992
+      },
+      {
+        "src": "/images/bombinhas/bombinhas-vista-1280-701f907fa716.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 158748
+      },
+      {
+        "src": "/images/bombinhas/bombinhas-vista-1600-bf4c379ac19a.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 228154
+      },
+      {
+        "src": "/images/bombinhas/bombinhas-vista-1920-08736ff7dd4d.webp",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 293904
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1920,
+    "originalHeight": 1080
+  },
+  "aeroportos/aviao-pista": {
+    "src": "/images/aeroportos/aviao-pista-641-6cf52c0c2a95.webp",
+    "width": 641,
+    "height": 360,
+    "alt": "Avião em pista ao entardecer, fotografia ilustrativa",
+    "variants": [
+      {
+        "src": "/images/aeroportos/aviao-pista-320-ee7cdb1e5b19.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8340
+      },
+      {
+        "src": "/images/aeroportos/aviao-pista-480-6425de3c580e.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 14136
+      },
+      {
+        "src": "/images/aeroportos/aviao-pista-640-aeb840e89541.webp",
+        "width": 640,
+        "height": 359,
+        "bytes": 20888
+      },
+      {
+        "src": "/images/aeroportos/aviao-pista-641-6cf52c0c2a95.webp",
+        "width": 641,
+        "height": 360,
+        "bytes": 21774
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 641,
+    "originalHeight": 360
+  },
+  "aeroportos/aviao-pouso": {
+    "src": "/images/aeroportos/aviao-pouso-474-857469bb6e7e.webp",
+    "width": 474,
+    "height": 711,
+    "alt": "Avião em aproximação para pouso, fotografia ilustrativa",
+    "variants": [
+      {
+        "src": "/images/aeroportos/aviao-pouso-320-f2edd5ce4d2d.webp",
+        "width": 320,
+        "height": 480,
+        "bytes": 10974
+      },
+      {
+        "src": "/images/aeroportos/aviao-pouso-474-857469bb6e7e.webp",
+        "width": 474,
+        "height": 711,
+        "bytes": 19890
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 474,
+    "originalHeight": 711
+  },
+  "fretes/real-mudanca": {
+    "src": "/images/fretes/real-mudanca-1528-d63f0aa8f883.webp",
+    "width": 1528,
+    "height": 1310,
+    "alt": "Caminhonete da Ademir Fretes com reboque de dois eixos durante uma mudança",
+    "altEs": "Camioneta de Ademir Fretes con remolque de dos ejes durante una mudanza",
+    "variants": [
+      {
+        "src": "/images/fretes/real-mudanca-320-1a2b6958787d.webp",
+        "width": 320,
+        "height": 274,
+        "bytes": 22368
+      },
+      {
+        "src": "/images/fretes/real-mudanca-480-940e8aeab5f2.webp",
+        "width": 480,
+        "height": 412,
+        "bytes": 48438
+      },
+      {
+        "src": "/images/fretes/real-mudanca-640-8162778d553a.webp",
+        "width": 640,
+        "height": 549,
+        "bytes": 83494
+      },
+      {
+        "src": "/images/fretes/real-mudanca-800-77884fe8ff5c.webp",
+        "width": 800,
+        "height": 686,
+        "bytes": 125928
+      },
+      {
+        "src": "/images/fretes/real-mudanca-1024-b71e9c677faf.webp",
+        "width": 1024,
+        "height": 878,
+        "bytes": 195318
+      },
+      {
+        "src": "/images/fretes/real-mudanca-1280-a41810af06c7.webp",
+        "width": 1280,
+        "height": 1097,
+        "bytes": 280474
+      },
+      {
+        "src": "/images/fretes/real-mudanca-1528-d63f0aa8f883.webp",
+        "width": 1528,
+        "height": 1310,
+        "bytes": 366608
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1528,
+    "originalHeight": 1528,
+    "fit": "contain",
+    "objectPosition": "center"
+  },
+  "fretes/real-reboque": {
+    "src": "/images/fretes/real-reboque-1600-f730faced9cc.webp",
+    "width": 1600,
+    "height": 1040,
+    "alt": "Caminhonete e reboque da Ademir Fretes com móveis protegidos para transporte",
+    "altEs": "Camioneta y remolque de Ademir Fretes con muebles protegidos para su transporte",
+    "variants": [
+      {
+        "src": "/images/fretes/real-reboque-320-5cc897f5d04b.webp",
+        "width": 320,
+        "height": 208,
+        "bytes": 18676
+      },
+      {
+        "src": "/images/fretes/real-reboque-480-73bb57c92a80.webp",
+        "width": 480,
+        "height": 312,
+        "bytes": 38714
+      },
+      {
+        "src": "/images/fretes/real-reboque-640-ff1a0ae5b8bc.webp",
+        "width": 640,
+        "height": 416,
+        "bytes": 64746
+      },
+      {
+        "src": "/images/fretes/real-reboque-800-b990b7de89f8.webp",
+        "width": 800,
+        "height": 520,
+        "bytes": 94724
+      },
+      {
+        "src": "/images/fretes/real-reboque-1024-1105150caa3f.webp",
+        "width": 1024,
+        "height": 666,
+        "bytes": 139248
+      },
+      {
+        "src": "/images/fretes/real-reboque-1280-9b95a1dc73cb.webp",
+        "width": 1280,
+        "height": 832,
+        "bytes": 193280
+      },
+      {
+        "src": "/images/fretes/real-reboque-1600-f730faced9cc.webp",
+        "width": 1600,
+        "height": 1040,
+        "bytes": 260474
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1600,
+    "originalHeight": 1200,
+    "fit": "contain",
+    "objectPosition": "center"
+  },
+  "fretes/real-madeira": {
+    "src": "/images/fretes/real-madeira-899-0d910ce54d3f.webp",
+    "width": 899,
+    "height": 720,
+    "alt": "Detalhe do reboque de dois eixos transportando madeira",
+    "altEs": "Detalle del remolque de dos ejes transportando madera",
+    "variants": [
+      {
+        "src": "/images/fretes/real-madeira-320-c6d87bcc9ec4.webp",
+        "width": 320,
+        "height": 256,
+        "bytes": 18248
+      },
+      {
+        "src": "/images/fretes/real-madeira-480-b5f648680c4b.webp",
+        "width": 480,
+        "height": 384,
+        "bytes": 34014
+      },
+      {
+        "src": "/images/fretes/real-madeira-640-8a4af2b41126.webp",
+        "width": 640,
+        "height": 513,
+        "bytes": 51082
+      },
+      {
+        "src": "/images/fretes/real-madeira-800-d559b779292f.webp",
+        "width": 800,
+        "height": 641,
+        "bytes": 68852
+      },
+      {
+        "src": "/images/fretes/real-madeira-899-0d910ce54d3f.webp",
+        "width": 899,
+        "height": 720,
+        "bytes": 78124
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 899,
+    "originalHeight": 1599,
+    "fit": "contain",
+    "objectPosition": "center"
+  },
+  "fretes/real-carga": {
+    "src": "/images/fretes/real-carga-899-ee196306e17e.webp",
+    "width": 899,
+    "height": 830,
+    "alt": "Detalhe da caminhonete Ademir Fretes transportando uma caixa de água",
+    "altEs": "Detalle de la camioneta Ademir Fretes transportando un depósito de agua",
+    "variants": [
+      {
+        "src": "/images/fretes/real-carga-320-1182fef3fdf0.webp",
+        "width": 320,
+        "height": 295,
+        "bytes": 24476
+      },
+      {
+        "src": "/images/fretes/real-carga-480-a888fbfc1ad7.webp",
+        "width": 480,
+        "height": 443,
+        "bytes": 50648
+      },
+      {
+        "src": "/images/fretes/real-carga-640-f57228770d3b.webp",
+        "width": 640,
+        "height": 591,
+        "bytes": 80676
+      },
+      {
+        "src": "/images/fretes/real-carga-800-bcb67480f29e.webp",
+        "width": 800,
+        "height": 739,
+        "bytes": 112564
+      },
+      {
+        "src": "/images/fretes/real-carga-899-ee196306e17e.webp",
+        "width": 899,
+        "height": 830,
+        "bytes": 128656
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 899,
+    "originalHeight": 1599,
+    "fit": "contain",
+    "objectPosition": "center"
+  },
+  "taxi/real-aeroporto": {
+    "src": "/images/taxi/real-aeroporto-1290-cb8763f7d77f.webp",
+    "width": 1290,
+    "height": 655,
+    "alt": "Táxi branco fotografado de perfil em frente a um terminal de aeroporto",
+    "altEs": "Taxi blanco fotografiado de perfil frente a una terminal de aeropuerto",
+    "variants": [
+      {
+        "src": "/images/taxi/real-aeroporto-320-028acead3b15.webp",
+        "width": 320,
+        "height": 162,
+        "bytes": 10776
+      },
+      {
+        "src": "/images/taxi/real-aeroporto-480-10cd7e7f4e02.webp",
+        "width": 480,
+        "height": 244,
+        "bytes": 22322
+      },
+      {
+        "src": "/images/taxi/real-aeroporto-640-1510fffca2ab.webp",
+        "width": 640,
+        "height": 325,
+        "bytes": 37626
+      },
+      {
+        "src": "/images/taxi/real-aeroporto-800-3d36ae835bd9.webp",
+        "width": 800,
+        "height": 406,
+        "bytes": 55636
+      },
+      {
+        "src": "/images/taxi/real-aeroporto-1024-141c4f77eb47.webp",
+        "width": 1024,
+        "height": 520,
+        "bytes": 81548
+      },
+      {
+        "src": "/images/taxi/real-aeroporto-1290-cb8763f7d77f.webp",
+        "width": 1290,
+        "height": 655,
+        "bytes": 112584
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1600,
+    "originalHeight": 1200,
+    "fit": "contain",
+    "objectPosition": "center"
+  },
+  "taxi/real-bombinhas": {
+    "src": "/images/taxi/real-bombinhas-1600-83ca3c969106.webp",
+    "width": 1600,
+    "height": 1120,
+    "alt": "Táxi branco da Ademir Transportes junto ao letreiro de Bombinhas",
+    "altEs": "Taxi blanco de Ademir Transportes junto al letrero de Bombinhas",
+    "variants": [
+      {
+        "src": "/images/taxi/real-bombinhas-320-e7ba6c5e9a87.webp",
+        "width": 320,
+        "height": 224,
+        "bytes": 16000
+      },
+      {
+        "src": "/images/taxi/real-bombinhas-480-c1a1d3cfb4f4.webp",
+        "width": 480,
+        "height": 336,
+        "bytes": 32826
+      },
+      {
+        "src": "/images/taxi/real-bombinhas-640-0d37a068437b.webp",
+        "width": 640,
+        "height": 448,
+        "bytes": 55794
+      },
+      {
+        "src": "/images/taxi/real-bombinhas-800-cb1683a9c902.webp",
+        "width": 800,
+        "height": 560,
+        "bytes": 83290
+      },
+      {
+        "src": "/images/taxi/real-bombinhas-1024-66f87f49c2af.webp",
+        "width": 1024,
+        "height": 717,
+        "bytes": 125358
+      },
+      {
+        "src": "/images/taxi/real-bombinhas-1280-7f35d5aab35d.webp",
+        "width": 1280,
+        "height": 896,
+        "bytes": 178150
+      },
+      {
+        "src": "/images/taxi/real-bombinhas-1600-83ca3c969106.webp",
+        "width": 1600,
+        "height": 1120,
+        "bytes": 239580
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1600,
+    "originalHeight": 1200,
+    "fit": "contain",
+    "objectPosition": "center"
+  },
+  "taxi/real-mirante": {
+    "src": "/images/taxi/real-mirante-985-1b3c0cca77c1.webp",
+    "width": 985,
+    "height": 960,
+    "alt": "Táxi branco com identificação no teto e vista do mar de Bombinhas ao fundo",
+    "altEs": "Taxi blanco con identificación en el techo y vista del mar de Bombinhas al fondo",
+    "variants": [
+      {
+        "src": "/images/taxi/real-mirante-320-6a4aa4264d3c.webp",
+        "width": 320,
+        "height": 312,
+        "bytes": 20258
+      },
+      {
+        "src": "/images/taxi/real-mirante-480-fa1b7cd48768.webp",
+        "width": 480,
+        "height": 468,
+        "bytes": 38258
+      },
+      {
+        "src": "/images/taxi/real-mirante-640-788eac899cbf.webp",
+        "width": 640,
+        "height": 624,
+        "bytes": 59626
+      },
+      {
+        "src": "/images/taxi/real-mirante-800-dc7a9d830cbf.webp",
+        "width": 800,
+        "height": 780,
+        "bytes": 84126
+      },
+      {
+        "src": "/images/taxi/real-mirante-985-1b3c0cca77c1.webp",
+        "width": 985,
+        "height": 960,
+        "bytes": 110508
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1200,
+    "originalHeight": 1600,
+    "fit": "contain",
+    "objectPosition": "center"
+  },
+  "taxi/real-campo": {
+    "src": "/images/taxi/real-campo-1140-8be6f9f02085.webp",
+    "width": 1140,
+    "height": 940,
+    "alt": "Táxi branco estacionado em área arborizada, visto de frente e de lado",
+    "altEs": "Taxi blanco estacionado en una zona arbolada, visto de frente y de lado",
+    "variants": [
+      {
+        "src": "/images/taxi/real-campo-320-6f083a0be775.webp",
+        "width": 320,
+        "height": 264,
+        "bytes": 24706
+      },
+      {
+        "src": "/images/taxi/real-campo-480-667033fd1399.webp",
+        "width": 480,
+        "height": 396,
+        "bytes": 51782
+      },
+      {
+        "src": "/images/taxi/real-campo-640-1473a778247a.webp",
+        "width": 640,
+        "height": 528,
+        "bytes": 84582
+      },
+      {
+        "src": "/images/taxi/real-campo-800-da7f3d759635.webp",
+        "width": 800,
+        "height": 660,
+        "bytes": 122142
+      },
+      {
+        "src": "/images/taxi/real-campo-1024-3c0051399423.webp",
+        "width": 1024,
+        "height": 844,
+        "bytes": 176092
+      },
+      {
+        "src": "/images/taxi/real-campo-1140-8be6f9f02085.webp",
+        "width": 1140,
+        "height": 940,
+        "bytes": 204656
+      }
+    ],
+    "review": "approved-redacted",
+    "originalWidth": 1200,
+    "originalHeight": 1600,
+    "fit": "contain",
+    "objectPosition": "center"
+  }
+}

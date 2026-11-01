@@ -1,0 +1,1047 @@
+{
+  "method": "Traditional deterministic Pillow processing; no generative model or synthetic scene/detail used.",
+  "date": "2026-10-29",
+  "originals_preserved": true,
+  "originals_unchanged_verified": true,
+  "no_upscale": true,
+  "publicFiles": 48,
+  "publicBytes": 4608056,
+  "inventory": [
+    {
+      "file": "WhatsApp Image 2026-10-24 at 16.18.15.jpeg",
+      "sha256": "c2f13cc40d184650e94b6a390ea1b69de45659c2bf6b77042fecd662233424b2",
+      "bytes": 248731,
+      "status": "used"
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 16.18.16 (1).jpeg",
+      "sha256": "de8ae51d7e17fcba9e608b259fd7e89d3c99e0f4c05d3513c101c67be157be6c",
+      "bytes": 803577,
+      "status": "not-used",
+      "reason": "Retrato muito inclinado e repetição do serviço de mudança. Exigiria um corte ruim para os espaços principais; escolhidos registros completos mais adequados."
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 16.18.16.jpeg",
+      "sha256": "5351d513cf419b2dd9b940127db095472bebb1efe5c04cd450f975b64b803e86",
+      "bytes": 665366,
+      "status": "not-used",
+      "reason": "Frente cortada no original, porta aberta e forte inclinação. Escolhido conjunto caminhonete/reboque mais completo."
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 16.18.17 (1).jpeg",
+      "sha256": "f7229b6868351801eb43d01f7ddf2e260e1aa4216169b3e357016b6ffaf18126",
+      "bytes": 216882,
+      "status": "not-used",
+      "reason": "Mesma cena da mudança com enquadramento cortando a frente e menor resolução. Preferido o original mais amplo 16.18.17.jpeg."
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 16.18.17 (2).jpeg",
+      "sha256": "519c5d89480a3273bd53cdd14f996181ee26609d8151a2d31e2f2f9be5cc22c0",
+      "bytes": 979405,
+      "status": "not-used",
+      "reason": "Pessoa identificável próxima ao reboque, sem autorização específica de imagem. Não publicada; revisão humana necessária se desejar utilizá-la."
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 16.18.17 (3).jpeg",
+      "sha256": "e3769c141938bef5644c4758109492ac63caf6dceef4d6c625b86ce9136dc498",
+      "bytes": 183526,
+      "status": "not-used",
+      "reason": "Frente da caminhonete ausente no enquadramento e veículo de terceiro com placa ao fundo. Não acrescenta um enquadramento melhor que os escolhidos."
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 16.18.17.jpeg",
+      "sha256": "66e5e052f37478868c488177b56c40db4538fef41a74196f10121e7189c65e4b",
+      "bytes": 382643,
+      "status": "used"
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 16.18.18 (1).jpeg",
+      "sha256": "8d6bd5a3e31b51876537413ced19afc6cd646d731343ffa59f4c85e9a81ef010",
+      "bytes": 152378,
+      "status": "not-used",
+      "reason": "Retrato da caminhonete com prancha, com veículo e prancha cortados no original. Crop para os espaços disponíveis perderia elementos importantes."
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 16.18.18 (2).jpeg",
+      "sha256": "bfdf3e954b649247ef30bfd8bceba4895bed3c383f3dce7326cad5b44c7a5fad",
+      "bytes": 219626,
+      "status": "used"
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 16.18.18.jpeg",
+      "sha256": "9e2b8f7191bcb242a5a336e4b7ad9443b4492dfc3ff69f6779784e99259b45a5",
+      "bytes": 319504,
+      "status": "used"
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 22.20.53 (1).jpeg",
+      "sha256": "43c538966fb377647faf8e192ef066c131c0298f5482aa12ac70678dbb312c41",
+      "bytes": 152897,
+      "status": "not-used",
+      "reason": "Foto do exterior em garagem, frente cortada e contraluz forte. Não é uma foto do interior. Preferidos registros externos mais completos."
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 22.20.53 (2).jpeg",
+      "sha256": "f79eae728f71c2bfc0aeb078f39f5086783f2abfc1b7e1061159751fdb94a428",
+      "bytes": 244615,
+      "status": "used"
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 22.20.53.jpeg",
+      "sha256": "8d2f60e1d6641fb0e7eb9df97c8a270c03efbdcf520f69cf1d87f55c0ab73d50",
+      "bytes": 289872,
+      "status": "used"
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 22.20.54 (1).jpeg",
+      "sha256": "a5ebf46ebbc64a37e9e39e3cba61456737b600466c613dd51cb96778041cf636",
+      "bytes": 290535,
+      "status": "not-used",
+      "reason": "Quase duplicata visual da foto 22.20.53.jpeg, com compressão diferente. Uma única versão da cena do letreiro foi selecionada."
+    },
+    {
+      "file": "WhatsApp Image 2026-10-24 at 22.20.54.jpeg",
+      "sha256": "bc0c86326cf0bdd16c9d16da5153aacd423e60de8a6bc70204b4a8236e4599dd",
+      "bytes": 248159,
+      "status": "used"
+    },
+    {
+      "file": "WhatsApp Image 2026-10-29 at 08.28.03 (1).jpeg",
+      "sha256": "dc80c5105a5220ece5e78e0db8dabbdccc44d768a5bbb59c6cbd035a955b8fb0",
+      "bytes": 350415,
+      "status": "used"
+    },
+    {
+      "file": "WhatsApp Image 2026-10-29 at 08.28.03 (2).jpeg",
+      "sha256": "7ec8c875f44b2c1d5ae38d0b6a5e19e69d725b1191af8aa96b89605d168d9dd3",
+      "bytes": 409518,
+      "status": "not-used",
+      "reason": "Forte inclinação, muito espaço de árvores e frente do táxi já cortada no original. Preferida a foto 08.28.03 (1) com veículo completo."
+    },
+    {
+      "file": "WhatsApp Image 2026-10-29 at 08.28.03.jpeg",
+      "sha256": "8d31d4aa01de15d93eb79b8212a3576de88abb03d6aaf544a0949469b39e13bd",
+      "bytes": 383060,
+      "status": "not-used",
+      "reason": "Frente e limite traseiro cortados no original. Registro lateral próximo repete o veículo sem melhorar os espaços disponíveis."
+    },
+    {
+      "file": "WhatsApp Image 2026-10-29 at 08.28.04.jpeg",
+      "sha256": "f79eae728f71c2bfc0aeb078f39f5086783f2abfc1b7e1061159751fdb94a428",
+      "bytes": 244615,
+      "status": "not-used",
+      "reason": "Duplicata binária exata de WhatsApp Image 2026-10-24 at 22.20.53 (2).jpeg. Não carregada novamente."
+    },
+    {
+      "file": "WhatsApp Video 2026-10-24 at 22.20.53.mp4",
+      "sha256": "4420e8e5b9da8ebfae7e49ba2f3123e10a0b597b8346b45b3286da920e958bff",
+      "bytes": 515701,
+      "status": "not-used",
+      "reason": "Briefing solicita carrosséis fotográficos; nenhum player de vídeo foi pedido. Preservado sem publicar ou extrair quadros.",
+      "metadata": {
+        "duration_seconds": 2.538625,
+        "width": 368.0,
+        "height": 496.0
+      }
+    }
+  ],
+  "used": [
+    {
+      "key": "fretes/real-mudanca",
+      "source": "WhatsApp Image 2026-10-24 at 16.18.17.jpeg",
+      "source_sha256": "66e5e052f37478868c488177b56c40db4538fef41a74196f10121e7189c65e4b",
+      "originalSize": [
+        1528,
+        1528
+      ],
+      "crop": [
+        0,
+        150,
+        1528,
+        1460
+      ],
+      "finalSize": [
+        1528,
+        1310
+      ],
+      "redactions": [],
+      "brightness": 1.055,
+      "contrast": 1.01,
+      "gamma": 1,
+      "whiteBalance": "unchanged: no correction warranted",
+      "saturation": "unchanged",
+      "denoise": "none: no heavy smoothing warranted",
+      "sharpening": "Only downscaled responsive variants: unsharp radius 0.6, 25%, threshold 4",
+      "rotation": "none: no destructive straightening or filled corners",
+      "notes": "Retirados somente excessos de céu e piso. Mantida a inclinação real para não cortar a caminhonete ou a carga. Placas fora do ângulo de visão.",
+      "recommendedSlots": [
+        "freight hero",
+        "home freight secondary"
+      ],
+      "recommendedFit": "contain; central alignment; neutral matte; same safe crop on desktop/mobile",
+      "master": "review-masters/real-mudanca.jpg",
+      "variants": [
+        {
+          "src": "/images/fretes/real-mudanca-320-1a2b6958787d.webp",
+          "width": 320,
+          "height": 274,
+          "bytes": 22368
+        },
+        {
+          "src": "/images/fretes/real-mudanca-480-940e8aeab5f2.webp",
+          "width": 480,
+          "height": 412,
+          "bytes": 48438
+        },
+        {
+          "src": "/images/fretes/real-mudanca-640-8162778d553a.webp",
+          "width": 640,
+          "height": 549,
+          "bytes": 83494
+        },
+        {
+          "src": "/images/fretes/real-mudanca-800-77884fe8ff5c.webp",
+          "width": 800,
+          "height": 686,
+          "bytes": 125928
+        },
+        {
+          "src": "/images/fretes/real-mudanca-1024-b71e9c677faf.webp",
+          "width": 1024,
+          "height": 878,
+          "bytes": 195318
+        },
+        {
+          "src": "/images/fretes/real-mudanca-1280-a41810af06c7.webp",
+          "width": 1280,
+          "height": 1097,
+          "bytes": 280474
+        },
+        {
+          "src": "/images/fretes/real-mudanca-1528-d63f0aa8f883.webp",
+          "width": 1528,
+          "height": 1310,
+          "bytes": 366608
+        }
+      ]
+    },
+    {
+      "key": "fretes/real-reboque",
+      "source": "WhatsApp Image 2026-10-24 at 16.18.18.jpeg",
+      "source_sha256": "9e2b8f7191bcb242a5a336e4b7ad9443b4492dfc3ff69f6779784e99259b45a5",
+      "originalSize": [
+        1600,
+        1200
+      ],
+      "crop": [
+        0,
+        80,
+        1600,
+        1120
+      ],
+      "finalSize": [
+        1600,
+        1040
+      ],
+      "redactions": [
+        {
+          "kind": "vehicle-plate",
+          "polygon": [
+            [
+              600,
+              696
+            ],
+            [
+              659,
+              671
+            ],
+            [
+              674,
+              707
+            ],
+            [
+              613,
+              731
+            ]
+          ],
+          "box": [
+            598,
+            669,
+            677,
+            734
+          ]
+        }
+      ],
+      "brightness": 1,
+      "contrast": 1,
+      "gamma": 1,
+      "whiteBalance": "unchanged: no correction warranted",
+      "saturation": "unchanged",
+      "denoise": "none: no heavy smoothing warranted",
+      "sharpening": "Only downscaled responsive variants: unsharp radius 0.6, 25%, threshold 4",
+      "rotation": "none: no destructive straightening or filled corners",
+      "notes": "Recorte leve de fachada e piso, preservando caminhonete, reboque e móveis. Exposição e cores mantidas.",
+      "recommendedSlots": [
+        "freight hero",
+        "home freight primary"
+      ],
+      "recommendedFit": "contain; central alignment; neutral matte; same safe crop on desktop/mobile",
+      "master": "review-masters/real-reboque.jpg",
+      "variants": [
+        {
+          "src": "/images/fretes/real-reboque-320-5cc897f5d04b.webp",
+          "width": 320,
+          "height": 208,
+          "bytes": 18676
+        },
+        {
+          "src": "/images/fretes/real-reboque-480-73bb57c92a80.webp",
+          "width": 480,
+          "height": 312,
+          "bytes": 38714
+        },
+        {
+          "src": "/images/fretes/real-reboque-640-ff1a0ae5b8bc.webp",
+          "width": 640,
+          "height": 416,
+          "bytes": 64746
+        },
+        {
+          "src": "/images/fretes/real-reboque-800-b990b7de89f8.webp",
+          "width": 800,
+          "height": 520,
+          "bytes": 94724
+        },
+        {
+          "src": "/images/fretes/real-reboque-1024-1105150caa3f.webp",
+          "width": 1024,
+          "height": 666,
+          "bytes": 139248
+        },
+        {
+          "src": "/images/fretes/real-reboque-1280-9b95a1dc73cb.webp",
+          "width": 1280,
+          "height": 832,
+          "bytes": 193280
+        },
+        {
+          "src": "/images/fretes/real-reboque-1600-f730faced9cc.webp",
+          "width": 1600,
+          "height": 1040,
+          "bytes": 260474
+        }
+      ]
+    },
+    {
+      "key": "fretes/real-madeira",
+      "source": "WhatsApp Image 2026-10-24 at 16.18.18 (2).jpeg",
+      "source_sha256": "bfdf3e954b649247ef30bfd8bceba4895bed3c383f3dce7326cad5b44c7a5fad",
+      "originalSize": [
+        899,
+        1599
+      ],
+      "crop": [
+        0,
+        620,
+        899,
+        1340
+      ],
+      "finalSize": [
+        899,
+        720
+      ],
+      "redactions": [],
+      "brightness": 1,
+      "contrast": 1,
+      "gamma": 0.97,
+      "whiteBalance": "unchanged: no correction warranted",
+      "saturation": "unchanged",
+      "denoise": "none: no heavy smoothing warranted",
+      "sharpening": "Only downscaled responsive variants: unsharp radius 0.6, 25%, threshold 4",
+      "rotation": "none: no destructive straightening or filled corners",
+      "notes": "Enquadramento de detalhe da carga e reboque. O recorte remove integralmente a pessoa que aparece distante no original. Sombras levantadas discretamente; sem placas visíveis no enquadramento final.",
+      "recommendedSlots": [
+        "home freight secondary",
+        "freight gallery"
+      ],
+      "recommendedFit": "contain; central alignment; neutral matte; same safe crop on desktop/mobile",
+      "master": "review-masters/real-madeira.jpg",
+      "variants": [
+        {
+          "src": "/images/fretes/real-madeira-320-c6d87bcc9ec4.webp",
+          "width": 320,
+          "height": 256,
+          "bytes": 18248
+        },
+        {
+          "src": "/images/fretes/real-madeira-480-b5f648680c4b.webp",
+          "width": 480,
+          "height": 384,
+          "bytes": 34014
+        },
+        {
+          "src": "/images/fretes/real-madeira-640-8a4af2b41126.webp",
+          "width": 640,
+          "height": 513,
+          "bytes": 51082
+        },
+        {
+          "src": "/images/fretes/real-madeira-800-d559b779292f.webp",
+          "width": 800,
+          "height": 641,
+          "bytes": 68852
+        },
+        {
+          "src": "/images/fretes/real-madeira-899-0d910ce54d3f.webp",
+          "width": 899,
+          "height": 720,
+          "bytes": 78124
+        }
+      ]
+    },
+    {
+      "key": "fretes/real-carga",
+      "source": "WhatsApp Image 2026-10-24 at 16.18.15.jpeg",
+      "source_sha256": "c2f13cc40d184650e94b6a390ea1b69de45659c2bf6b77042fecd662233424b2",
+      "originalSize": [
+        899,
+        1599
+      ],
+      "crop": [
+        0,
+        400,
+        899,
+        1230
+      ],
+      "finalSize": [
+        899,
+        830
+      ],
+      "redactions": [
+        {
+          "kind": "vehicle-plate",
+          "polygon": [
+            [
+              526,
+              1062
+            ],
+            [
+              597,
+              1083
+            ],
+            [
+              574,
+              1128
+            ],
+            [
+              505,
+              1104
+            ]
+          ],
+          "box": [
+            503,
+            1060,
+            600,
+            1131
+          ]
+        }
+      ],
+      "brightness": 1.025,
+      "contrast": 1,
+      "gamma": 1,
+      "whiteBalance": "unchanged: no correction warranted",
+      "saturation": "unchanged",
+      "denoise": "none: no heavy smoothing warranted",
+      "sharpening": "Only downscaled responsive variants: unsharp radius 0.6, 25%, threshold 4",
+      "rotation": "none: no destructive straightening or filled corners",
+      "notes": "Enquadramento de detalhe da caçamba e carga, sem tentar reconstruir a frente já ausente no original. Exposição elevada 2,5%.",
+      "recommendedSlots": [
+        "freight gallery"
+      ],
+      "recommendedFit": "contain; central alignment; neutral matte; same safe crop on desktop/mobile",
+      "master": "review-masters/real-carga.jpg",
+      "variants": [
+        {
+          "src": "/images/fretes/real-carga-320-1182fef3fdf0.webp",
+          "width": 320,
+          "height": 295,
+          "bytes": 24476
+        },
+        {
+          "src": "/images/fretes/real-carga-480-a888fbfc1ad7.webp",
+          "width": 480,
+          "height": 443,
+          "bytes": 50648
+        },
+        {
+          "src": "/images/fretes/real-carga-640-f57228770d3b.webp",
+          "width": 640,
+          "height": 591,
+          "bytes": 80676
+        },
+        {
+          "src": "/images/fretes/real-carga-800-bcb67480f29e.webp",
+          "width": 800,
+          "height": 739,
+          "bytes": 112564
+        },
+        {
+          "src": "/images/fretes/real-carga-899-ee196306e17e.webp",
+          "width": 899,
+          "height": 830,
+          "bytes": 128656
+        }
+      ]
+    },
+    {
+      "key": "taxi/real-aeroporto",
+      "source": "WhatsApp Image 2026-10-24 at 22.20.53 (2).jpeg",
+      "source_sha256": "f79eae728f71c2bfc0aeb078f39f5086783f2abfc1b7e1061159751fdb94a428",
+      "originalSize": [
+        1600,
+        1200
+      ],
+      "crop": [
+        160,
+        425,
+        1450,
+        1080
+      ],
+      "finalSize": [
+        1290,
+        655
+      ],
+      "redactions": [
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            184,
+            549,
+            197,
+            559
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            211,
+            551,
+            224,
+            559
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            273,
+            552,
+            286,
+            560
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            321,
+            551,
+            332,
+            559
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            360,
+            549,
+            375,
+            558
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            421,
+            550,
+            434,
+            558
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            486,
+            549,
+            498,
+            558
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            945,
+            562,
+            958,
+            570
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            989,
+            567,
+            1004,
+            576
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            1026,
+            563,
+            1038,
+            571
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            1052,
+            565,
+            1065,
+            573
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            1107,
+            565,
+            1122,
+            574
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            1146,
+            570,
+            1159,
+            579
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            1198,
+            569,
+            1210,
+            578
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            1245,
+            567,
+            1259,
+            577
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            1295,
+            570,
+            1310,
+            580
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            1345,
+            570,
+            1358,
+            579
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            1395,
+            571,
+            1410,
+            581
+          ]
+        },
+        {
+          "kind": "distant-third-party-plate-zone",
+          "box": [
+            1444,
+            571,
+            1458,
+            581
+          ]
+        }
+      ],
+      "brightness": 1.025,
+      "contrast": 1.01,
+      "gamma": 1,
+      "whiteBalance": "unchanged: no correction warranted",
+      "saturation": "unchanged",
+      "denoise": "none: no heavy smoothing warranted",
+      "sharpening": "Only downscaled responsive variants: unsharp radius 0.6, 25%, threshold 4",
+      "rotation": "none: no destructive straightening or filled corners",
+      "notes": "Removidos céu e piso excedentes e o carro parcialmente visível à esquerda. Carro principal completo. Zonas minúsculas de placas dos veículos estacionados ao fundo também receberam desfoque localizado.",
+      "recommendedSlots": [
+        "taxi hero primary"
+      ],
+      "recommendedFit": "contain; central alignment; neutral matte; same safe crop on desktop/mobile",
+      "master": "review-masters/real-aeroporto.jpg",
+      "variants": [
+        {
+          "src": "/images/taxi/real-aeroporto-320-028acead3b15.webp",
+          "width": 320,
+          "height": 162,
+          "bytes": 10776
+        },
+        {
+          "src": "/images/taxi/real-aeroporto-480-10cd7e7f4e02.webp",
+          "width": 480,
+          "height": 244,
+          "bytes": 22322
+        },
+        {
+          "src": "/images/taxi/real-aeroporto-640-1510fffca2ab.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 37626
+        },
+        {
+          "src": "/images/taxi/real-aeroporto-800-3d36ae835bd9.webp",
+          "width": 800,
+          "height": 406,
+          "bytes": 55636
+        },
+        {
+          "src": "/images/taxi/real-aeroporto-1024-141c4f77eb47.webp",
+          "width": 1024,
+          "height": 520,
+          "bytes": 81548
+        },
+        {
+          "src": "/images/taxi/real-aeroporto-1290-cb8763f7d77f.webp",
+          "width": 1290,
+          "height": 655,
+          "bytes": 112584
+        }
+      ]
+    },
+    {
+      "key": "taxi/real-bombinhas",
+      "source": "WhatsApp Image 2026-10-24 at 22.20.53.jpeg",
+      "source_sha256": "8d2f60e1d6641fb0e7eb9df97c8a270c03efbdcf520f69cf1d87f55c0ab73d50",
+      "originalSize": [
+        1600,
+        1200
+      ],
+      "crop": [
+        0,
+        0,
+        1600,
+        1120
+      ],
+      "finalSize": [
+        1600,
+        1120
+      ],
+      "redactions": [],
+      "brightness": 1,
+      "contrast": 1.01,
+      "gamma": 0.95,
+      "whiteBalance": "unchanged: no correction warranted",
+      "saturation": "unchanged",
+      "denoise": "none: no heavy smoothing warranted",
+      "sharpening": "Only downscaled responsive variants: unsharp radius 0.6, 25%, threshold 4",
+      "rotation": "none: no destructive straightening or filled corners",
+      "notes": "Recorte apenas do piso inferior. Sombras do contraluz levantadas discretamente, preservando o aspecto real. Ângulo lateral não mostra placas. O limite traseiro do enquadramento original não foi inventado.",
+      "recommendedSlots": [
+        "taxi hero secondary"
+      ],
+      "recommendedFit": "contain; central alignment; neutral matte; same safe crop on desktop/mobile",
+      "master": "review-masters/real-bombinhas.jpg",
+      "variants": [
+        {
+          "src": "/images/taxi/real-bombinhas-320-e7ba6c5e9a87.webp",
+          "width": 320,
+          "height": 224,
+          "bytes": 16000
+        },
+        {
+          "src": "/images/taxi/real-bombinhas-480-c1a1d3cfb4f4.webp",
+          "width": 480,
+          "height": 336,
+          "bytes": 32826
+        },
+        {
+          "src": "/images/taxi/real-bombinhas-640-0d37a068437b.webp",
+          "width": 640,
+          "height": 448,
+          "bytes": 55794
+        },
+        {
+          "src": "/images/taxi/real-bombinhas-800-cb1683a9c902.webp",
+          "width": 800,
+          "height": 560,
+          "bytes": 83290
+        },
+        {
+          "src": "/images/taxi/real-bombinhas-1024-66f87f49c2af.webp",
+          "width": 1024,
+          "height": 717,
+          "bytes": 125358
+        },
+        {
+          "src": "/images/taxi/real-bombinhas-1280-7f35d5aab35d.webp",
+          "width": 1280,
+          "height": 896,
+          "bytes": 178150
+        },
+        {
+          "src": "/images/taxi/real-bombinhas-1600-83ca3c969106.webp",
+          "width": 1600,
+          "height": 1120,
+          "bytes": 239580
+        }
+      ]
+    },
+    {
+      "key": "taxi/real-mirante",
+      "source": "WhatsApp Image 2026-10-24 at 22.20.54.jpeg",
+      "source_sha256": "bc0c86326cf0bdd16c9d16da5153aacd423e60de8a6bc70204b4a8236e4599dd",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": [
+        215,
+        420,
+        1200,
+        1380
+      ],
+      "finalSize": [
+        985,
+        960
+      ],
+      "redactions": [
+        {
+          "kind": "vehicle-plate",
+          "polygon": [
+            [
+              1028,
+              1124
+            ],
+            [
+              1152,
+              1110
+            ],
+            [
+              1140,
+              1184
+            ],
+            [
+              1021,
+              1198
+            ]
+          ],
+          "box": [
+            1019,
+            1108,
+            1155,
+            1201
+          ]
+        }
+      ],
+      "brightness": 1,
+      "contrast": 1,
+      "gamma": 1,
+      "whiteBalance": "unchanged: no correction warranted",
+      "saturation": "unchanged",
+      "denoise": "none: no heavy smoothing warranted",
+      "sharpening": "Only downscaled responsive variants: unsharp radius 0.6, 25%, threshold 4",
+      "rotation": "none: no destructive straightening or filled corners",
+      "notes": "Recorte manual remove poste e céu excedente, preservando veículo, identificação do táxi, mar e vegetação reais. Exposição e cores já adequadas foram mantidas.",
+      "recommendedSlots": [
+        "home taxi primary",
+        "taxi gallery"
+      ],
+      "recommendedFit": "contain; central alignment; neutral matte; same safe crop on desktop/mobile",
+      "master": "review-masters/real-mirante.jpg",
+      "variants": [
+        {
+          "src": "/images/taxi/real-mirante-320-6a4aa4264d3c.webp",
+          "width": 320,
+          "height": 312,
+          "bytes": 20258
+        },
+        {
+          "src": "/images/taxi/real-mirante-480-fa1b7cd48768.webp",
+          "width": 480,
+          "height": 468,
+          "bytes": 38258
+        },
+        {
+          "src": "/images/taxi/real-mirante-640-788eac899cbf.webp",
+          "width": 640,
+          "height": 624,
+          "bytes": 59626
+        },
+        {
+          "src": "/images/taxi/real-mirante-800-dc7a9d830cbf.webp",
+          "width": 800,
+          "height": 780,
+          "bytes": 84126
+        },
+        {
+          "src": "/images/taxi/real-mirante-985-1b3c0cca77c1.webp",
+          "width": 985,
+          "height": 960,
+          "bytes": 110508
+        }
+      ]
+    },
+    {
+      "key": "taxi/real-campo",
+      "source": "WhatsApp Image 2026-10-29 at 08.28.03 (1).jpeg",
+      "source_sha256": "dc80c5105a5220ece5e78e0db8dabbdccc44d768a5bbb59c6cbd035a955b8fb0",
+      "originalSize": [
+        1200,
+        1600
+      ],
+      "crop": [
+        30,
+        320,
+        1170,
+        1260
+      ],
+      "finalSize": [
+        1140,
+        940
+      ],
+      "redactions": [
+        {
+          "kind": "vehicle-plate",
+          "polygon": [
+            [
+              107,
+              1014
+            ],
+            [
+              188,
+              993
+            ],
+            [
+              213,
+              1073
+            ],
+            [
+              133,
+              1092
+            ]
+          ],
+          "box": [
+            105,
+            991,
+            216,
+            1095
+          ]
+        }
+      ],
+      "brightness": 1,
+      "contrast": 1,
+      "gamma": 1,
+      "whiteBalance": "unchanged: no correction warranted",
+      "saturation": "unchanged",
+      "denoise": "none: no heavy smoothing warranted",
+      "sharpening": "Only downscaled responsive variants: unsharp radius 0.6, 25%, threshold 4",
+      "rotation": "none: no destructive straightening or filled corners",
+      "notes": "Recorte manual reduz céu e chão excedentes sem cortar o veículo. Luz quente natural mantida. Inclinação da captura preservada porque endireitar exigiria cortes prejudiciais ou preenchimento artificial.",
+      "recommendedSlots": [
+        "home taxi secondary",
+        "taxi gallery"
+      ],
+      "recommendedFit": "contain; central alignment; neutral matte; same safe crop on desktop/mobile",
+      "master": "review-masters/real-campo.jpg",
+      "variants": [
+        {
+          "src": "/images/taxi/real-campo-320-6f083a0be775.webp",
+          "width": 320,
+          "height": 264,
+          "bytes": 24706
+        },
+        {
+          "src": "/images/taxi/real-campo-480-667033fd1399.webp",
+          "width": 480,
+          "height": 396,
+          "bytes": 51782
+        },
+        {
+          "src": "/images/taxi/real-campo-640-1473a778247a.webp",
+          "width": 640,
+          "height": 528,
+          "bytes": 84582
+        },
+        {
+          "src": "/images/taxi/real-campo-800-da7f3d759635.webp",
+          "width": 800,
+          "height": 660,
+          "bytes": 122142
+        },
+        {
+          "src": "/images/taxi/real-campo-1024-3c0051399423.webp",
+          "width": 1024,
+          "height": 844,
+          "bytes": 176092
+        },
+        {
+          "src": "/images/taxi/real-campo-1140-8be6f9f02085.webp",
+          "width": 1140,
+          "height": 940,
+          "bytes": 204656
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "freightHero": [
+      "fretes/real-mudanca",
+      "fretes/real-reboque"
+    ],
+    "taxiHero": [
+      "taxi/real-aeroporto",
+      "taxi/real-bombinhas"
+    ],
+    "homeFreight": [
+      "fretes/real-reboque",
+      "fretes/real-madeira"
+    ],
+    "homeTaxi": [
+      "taxi/real-mirante",
+      "taxi/real-campo"
+    ],
+    "freightGallery": [
+      "fretes/real-carga",
+      "fretes/real-madeira"
+    ],
+    "taxiGallery": [
+      "taxi/real-mirante",
+      "taxi/real-campo"
+    ]
+  },
+  "limits": [
+    "Não há fotografia de interior do táxi no lote.",
+    "Pessoas sem autorização não foram publicadas; uma presença distante foi removida exclusivamente pelo recorte documentado.",
+    "Fotos com forte inclinação não foram artificialmente endireitadas ou preenchidas.",
+    "Fotos de detalhe não devem ser usadas como fotografia de veículo inteiro."
+  ]
+}

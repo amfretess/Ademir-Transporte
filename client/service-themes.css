@@ -1,0 +1,185 @@
+/* Company and service tokens. Brand red stays independent of the taxi accent. */
+:root {
+  --brand-red: #C8102E;
+  --brand-red-hover: #8F1026;
+  --taxi-yellow: #F5BF25;
+  --taxi-yellow-hover: #E3AD17;
+  --taxi-graphite: #25282D;
+  --taxi-light: #F7F7F5;
+  --service-accent: var(--brand-red);
+  --service-hover: var(--brand-red-hover);
+  --service-on-accent: #FFFFFF;
+  --service-text: var(--brand-red);
+  --service-soft: #FCF0F2;
+  --service-focus: var(--brand-red);
+}
+[data-service-theme="fretes"] {
+  --service-accent: var(--brand-red);
+  --service-hover: var(--brand-red-hover);
+  --service-on-accent: #FFFFFF;
+  --service-text: var(--brand-red);
+  --service-soft: #FCF0F2;
+  --service-focus: var(--brand-red);
+}
+[data-service-theme="taxi"], .taxi-action {
+  --ink: var(--taxi-graphite);
+  --light: var(--taxi-light);
+  --muted: #5C6168;
+  --border: #DDE0E2;
+  --service-accent: var(--taxi-yellow);
+  --service-hover: var(--taxi-yellow-hover);
+  --service-on-accent: var(--taxi-graphite);
+  --service-text: var(--taxi-graphite);
+  --service-soft: #FFF6D9;
+  --service-focus: var(--taxi-graphite);
+}
+
+/* Shared actions inherit semantic service colors; no duplicated components. */
+[data-service-theme] .button.primary, .button.taxi-action {
+  background: var(--service-accent);
+  color: var(--service-on-accent);
+  border-color: transparent;
+}
+[data-service-theme] .button.primary:hover, .button.taxi-action:hover {
+  background: var(--service-hover);
+  box-shadow: none;
+}
+[data-service-theme] .button.primary:active, .button.taxi-action:active { transform: translateY(0); }
+[data-service-theme] :is(a, button, summary, input, select, textarea):focus-visible {
+  outline: 3px solid var(--service-focus);
+  outline-offset: 4px;
+}
+.taxi-action:focus-visible { outline: 3px solid #FFFFFF; outline-offset: 4px; }
+[data-service-theme="taxi"] ::selection { background: var(--service-accent); color: var(--service-on-accent); }
+
+/* Service contexts on the home, about, contact and shared contact controls. */
+.service-card { border-top: 4px solid var(--service-accent); box-shadow: none; }
+.service-card .service-card-heading > :is(span, .icon) { color: var(--service-text); }
+.service-card .service-card-heading > .icon { padding: 9px; width: 38px; height: 38px; border-radius: 50%; background: var(--service-soft); }
+.service-card .service-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 26px;
+  justify-content: space-between;
+  min-height: 48px;
+  padding: 13px 18px;
+  background: var(--service-accent);
+  color: var(--service-on-accent);
+  border: 0;
+  border-radius: 6px;
+  margin-top: 25px;
+  transition: background .2s;
+}
+.service-card .service-link > .icon { color: inherit; }
+.service-card:hover .service-link { background: var(--service-hover); }
+.service-card .visual-tag { color: var(--service-text); border-left: 3px solid var(--service-accent); }
+.service-card[data-service-theme="taxi"] .service-body { background: #FFFFFF; }
+.service-card[data-service-theme="taxi"] .service-visual { background: var(--taxi-light); }
+.cta-mixed { background: var(--ink); }
+.cta-mixed .button.primary { background: var(--brand-red); color: #FFFFFF; }
+.cta-mixed .button.primary:hover { background: var(--brand-red-hover); }
+.cta-mixed .button.taxi-action { background: var(--taxi-yellow); color: var(--taxi-graphite); }
+.cta-mixed .button.taxi-action:hover { background: var(--taxi-yellow-hover); }
+.tourism-section[data-service-theme="taxi"] .eyebrow { color: var(--service-text); }
+.tourism-section[data-service-theme="taxi"] .eyebrow::before { content: ''; width: 22px; height: 3px; background: var(--service-accent); flex: none; }
+.contact-card[data-service-theme] { border-top: 4px solid var(--service-accent); box-shadow: none; }
+.contact-card[data-service-theme] .icon-box { color: var(--service-text); background: var(--service-soft); }
+.contact-card[data-service-theme] .text-link:hover { color: var(--service-text); text-decoration: underline; text-underline-offset: 5px; }
+.about-fleet > [data-service-theme] { border-top: 4px solid var(--service-accent); }
+.about-fleet [data-service-theme] h3 .icon { color: var(--service-text); }
+.contact-popover > a[data-service-theme] > .icon { color: var(--service-text); }
+.contact-popover > a[data-service-theme]:hover { background: var(--service-soft); }
+.mobile-contact > a[data-service-theme] { background: var(--service-accent); border-color: var(--service-accent); color: var(--service-on-accent); }
+.mobile-contact > a[data-service-theme]:hover { background: var(--service-hover); }
+
+/* Taxi page: graphite structure, quiet surfaces, yellow at the decision points. */
+.site-shell[data-service-theme="taxi"] { background: #FFFFFF; color: var(--ink); }
+.site-shell[data-service-theme="taxi"] :is(.site-header, .site-footer) { background: var(--taxi-graphite); }
+[data-service-theme="taxi"] .nav-wrap nav > a[aria-current]::after { background: var(--service-accent); width: 30px; }
+[data-service-theme="taxi"] .nav-wrap nav > a:hover { color: var(--service-accent); }
+[data-service-theme="taxi"] .header-contact:hover { border-color: var(--service-accent); }
+[data-service-theme="taxi"] :is(.site-header, .site-footer, .inner-hero, .cta-section) :is(a, button, summary):focus-visible { outline-color: var(--service-accent); }
+[data-service-theme="taxi"] .language-options > a:hover,
+[data-service-theme="taxi"] .language-options > a[aria-current] { background: var(--service-soft); color: var(--service-text); }
+.site-shell[data-service-theme="taxi"] .language-options :is(a, button):focus-visible { outline-color: var(--taxi-graphite); }
+[data-service-theme="taxi"] .inner-hero { background: var(--taxi-graphite); padding-bottom: 60px; border-bottom: 4px solid var(--service-accent); }
+[data-service-theme="taxi"] .inner-hero-grid { gap: clamp(28px, 4vw, 64px); }
+[data-service-theme="taxi"] .inner-hero h1 { font-size: clamp(36px, 3.7vw, 59px); max-width: 650px; }
+[data-service-theme="taxi"] .inner-hero h1 span { color: var(--service-accent); }
+[data-service-theme="taxi"] .inner-hero .eyebrow { color: #F5F5F3; gap: 9px; }
+[data-service-theme="taxi"] .inner-hero .eyebrow > .icon { color: var(--service-accent); width: 22px; height: 22px; }
+[data-service-theme="taxi"] .inner-hero p:not(.eyebrow) { color: #D2D4D6; font-size: 14px; line-height: 1.85; }
+[data-service-theme="taxi"] .inner-hero .outline-light { border-color: #85888D; color: #FFFFFF; }
+[data-service-theme="taxi"] .inner-hero .outline-light:hover { border-color: var(--service-accent); background: #35383D; }
+[data-service-theme="taxi"] .hero-contact-number { color: #E3E4E5; font-size: 12px; }
+[data-service-theme="taxi"] .hero-contact-number .icon { color: var(--service-accent); }
+[data-service-theme="taxi"] .inner-vehicle-panel { border-radius: 10px; border: 1px solid #FFFFFF30; box-shadow: none; background: var(--light); }
+[data-service-theme="taxi"] .inner-vehicle-panel > .visual-tag { border-left: 3px solid var(--service-accent); color: var(--ink); }
+[data-service-theme="taxi"] .vehicle-panel-bottom { border-top: 4px solid var(--service-accent); padding-block: 19px; }
+[data-service-theme="taxi"] .vehicle-panel-bottom .icon { color: var(--service-text); }
+[data-service-theme="taxi"] .trust-strip { background: #FFFFFF; }
+[data-service-theme="taxi"] .trust-items > div > .icon { color: var(--service-text); padding: 7px; width: 36px; height: 36px; background: var(--service-soft); border-radius: 8px; }
+[data-service-theme="taxi"] :is(.eyebrow, .text-link) { color: var(--service-text); }
+[data-service-theme="taxi"] main > section:not(.inner-hero):not(.cta-section) .eyebrow::before { content: ''; width: 22px; height: 3px; background: var(--service-accent); flex: none; }
+[data-service-theme="taxi"] .icon-box { color: var(--service-text); background: var(--service-soft); border-radius: 9px; }
+[data-service-theme="taxi"] .detail-card { background: var(--light); border-color: transparent; border-radius: 9px; }
+[data-service-theme="taxi"] .detail-card h3 { margin-top: 23px; }
+[data-service-theme="taxi"] .gallery-section { background: var(--light); }
+[data-service-theme="taxi"] .gallery-photo { border-radius: 9px; }
+[data-service-theme="taxi"] .zoom-icon { background: var(--service-accent); color: var(--service-on-accent); box-shadow: none; }
+[data-service-theme="taxi"] .airport-section { background: #FFFFFF; }
+[data-service-theme="taxi"] .airport-card { border-radius: 9px; background: var(--light); }
+[data-service-theme="taxi"] .airport-code { color: var(--ink); font-size: 42px; letter-spacing: -.045em; padding-bottom: 20px; border-bottom: 3px solid var(--service-accent); }
+[data-service-theme="taxi"] .airport-code > .icon { color: var(--service-text); background: var(--service-accent); border-radius: 8px; width: 42px; height: 42px; padding: 9px; }
+[data-service-theme="taxi"] .airport-photo figcaption { color: var(--muted); background: #FFFFFF; }
+[data-service-theme="taxi"] .text-link { text-decoration: underline; text-decoration-color: var(--service-accent); text-decoration-thickness: 2px; text-underline-offset: 7px; }
+[data-service-theme="taxi"] .text-link:hover { text-decoration-color: var(--service-text); }
+[data-service-theme="taxi"] .steps-section { background: var(--light); }
+[data-service-theme="taxi"] .steps-grid article { border-color: #B6BBC0; }
+[data-service-theme="taxi"] .steps-grid article > span { color: var(--service-text); width: fit-content; box-shadow: inset 0 -10px var(--service-accent); line-height: 1.3; }
+[data-service-theme="taxi"] .form-section { background: #FFFFFF; }
+[data-service-theme="taxi"] .request-form { background: var(--light); border-color: var(--border); border-top: 4px solid var(--service-accent); border-radius: 9px; box-shadow: none; }
+[data-service-theme="taxi"] .form-field :is(input, select, textarea) { background: #FFFFFF; border-color: #959AA1; font-size: 13px; min-height: 48px; }
+[data-service-theme="taxi"] .form-field :is(input, textarea)::placeholder { color: #656B72; opacity: 1; }
+[data-service-theme="taxi"] .form-field b { color: var(--service-text); }
+[data-service-theme="taxi"] :is(.form-notice > .icon, .form-feedback) { color: var(--service-text); }
+[data-service-theme="taxi"] .form-field :is(input, select, textarea):focus { border-color: var(--service-text); outline: 3px solid var(--service-accent); outline-offset: 2px; }
+[data-service-theme="taxi"] .form-field :is(input, select, textarea)[aria-invalid="true"] { outline-color: var(--service-text); }
+[data-service-theme="taxi"] .form-result { background: #FFFFFF; border-color: #959AA1; }
+[data-service-theme="taxi"] .faq-section { background: var(--light); }
+[data-service-theme="taxi"] .faq-list summary > span { display: grid; place-items: center; border-radius: 50%; color: var(--service-text); background: var(--service-soft); width: 30px; height: 30px; flex: none; }
+[data-service-theme="taxi"] .faq-list details[open] summary > span { background: var(--service-accent); }
+[data-service-theme="taxi"] .faq-list details[open] summary { color: var(--service-text); }
+[data-service-theme="taxi"] .cta-section { background: var(--taxi-graphite); border-top: 4px solid var(--service-accent); }
+[data-service-theme="taxi"] .cta-section .eyebrow { color: var(--service-accent); }
+[data-service-theme="taxi"] .cta-inner p:not(.eyebrow) { color: #D2D4D6; }
+[data-service-theme="taxi"] .cta-section::after { display: none; }
+[data-service-theme="taxi"] .footer-phone > .icon { color: var(--service-accent); }
+[data-service-theme="taxi"] .footer-grid > div > p { color: #BEC1C5; }
+[data-service-theme="taxi"] .footer-grid > div > a:not(.brand):not(.footer-phone) { color: #CDD0D3; }
+[data-service-theme="taxi"] .footer-bottom { color: #BEC1C5; }
+[data-service-theme="taxi"] .footer-bottom button { color: #CDD0D3; }
+[data-service-theme="taxi"] .footer-status > span { background: var(--service-accent); }
+[data-service-theme="taxi"] .contact-widget > summary { background: var(--service-accent); color: var(--service-on-accent); }
+[data-service-theme="taxi"] .contact-widget > summary:hover { background: var(--service-hover); }
+
+@media(max-width:1000px) {
+  [data-service-theme="taxi"] .inner-hero h1 { font-size: 39px; }
+}
+@media(max-width:760px) {
+  [data-service-theme="taxi"] .inner-hero { padding-bottom: 38px; }
+  [data-service-theme="taxi"] .inner-hero h1 { font-size: clamp(32px, 7.8vw, 46px); }
+  [data-service-theme="taxi"] .inner-hero p:not(.eyebrow) { font-size: 13px; }
+  [data-service-theme="taxi"] .hero-contact-number { font-size: 11px; }
+  [data-service-theme="taxi"] .trust-items > div > .icon { width: 30px; height: 30px; padding: 6px; }
+  [data-service-theme="taxi"] .request-form { padding: 26px 20px; }
+  [data-service-theme="taxi"] .form-field :is(input, select, textarea) { font-size: 16px; }
+  [data-service-theme="taxi"] .airport-code { font-size: 37px; }
+  .service-card .service-link { font-size: 12px; gap: 20px; }
+}
+@media(max-width:380px) {
+  [data-service-theme="taxi"] .request-form { padding-inline: 17px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .service-card .service-link { transition: none; }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "route": "/",
+    "lang": "pt-BR",
+    "title": "Ademir Transportes em Bombinhas | Fretes, Táxi e Transfer 24h",
+    "description": "Fretes, mudanças, táxi e transfer em Bombinhas, Itapema e Porto Belo. 15 anos de experiência e atendimento 24 horas. Solicite pelo WhatsApp."
+  },
+  {
+    "route": "/es/",
+    "lang": "es",
+    "title": "Ademir Transportes en Bombinhas | Fletes, Taxi y Traslados 24 h",
+    "description": "Fletes, mudanzas, taxi y traslados en Bombinhas, Itapema y Porto Belo. 15 años de experiencia y atención las 24 horas. Consulte por WhatsApp."
+  },
+  {
+    "route": "/fretes",
+    "lang": "pt-BR",
+    "title": "Fretes e Mudanças em Bombinhas | Ademir Transportes",
+    "description": "Fretes, mudanças residenciais e comerciais em Bombinhas, Itapema, Porto Belo e região. Transporte de móveis e ajudante disponível. Peça seu orçamento."
+  },
+  {
+    "route": "/es/fletes",
+    "lang": "es",
+    "title": "Fletes y Mudanzas en Bombinhas | Ademir Transportes",
+    "description": "Fletes y mudanzas de viviendas y comercios en Bombinhas, Itapema, Porto Belo y alrededores. Transporte de muebles y ayudante disponible. Solicite su presupuesto."
+  },
+  {
+    "route": "/taxi",
+    "lang": "pt-BR",
+    "title": "Táxi e Transfer em Bombinhas 24 Horas | Ademir Transportes",
+    "description": "Táxi para até 4 passageiros em Bombinhas e transfer para os aeroportos de Florianópolis e Navegantes. Atendimento 24 horas em português e espanhol."
+  },
+  {
+    "route": "/es/taxi",
+    "lang": "es",
+    "title": "Taxi y Traslados en Bombinhas 24 Horas | Ademir Transportes",
+    "description": "Taxi para hasta 4 pasajeros en Bombinhas y traslados a los aeropuertos de Florianópolis y Navegantes. Atención las 24 horas en portugués y español."
+  },
+  {
+    "route": "/sobre",
+    "lang": "pt-BR",
+    "title": "Sobre a Ademir Transportes | 15 Anos em Bombinhas",
+    "description": "Conheça a Ademir Transportes. 15 anos de atuação em fretes, mudanças e transporte de passageiros em Bombinhas e região. Atendimento 24 horas."
+  },
+  {
+    "route": "/es/nosotros",
+    "lang": "es",
+    "title": "Sobre Ademir Transportes | 15 Años en Bombinhas",
+    "description": "Conozca Ademir Transportes. 15 años de experiencia en fletes, mudanzas y transporte de pasajeros en Bombinhas y alrededores. Atención las 24 horas."
+  },
+  {
+    "route": "/contato",
+    "lang": "pt-BR",
+    "title": "Contato | Fretes e Táxi em Bombinhas | Ademir Transportes",
+    "description": "Fale com a Ademir Transportes: fretes e mudanças (47) 99781-3000; táxi e transfer (47) 99730-2343. Atendimento 24 horas em Bombinhas, SC."
+  },
+  {
+    "route": "/es/contacto",
+    "lang": "es",
+    "title": "Contacto | Fletes y Taxi en Bombinhas | Ademir Transportes",
+    "description": "Contacte a Ademir Transportes: fletes y mudanzas (47) 99781-3000; taxi y traslados (47) 99730-2343. Atención las 24 horas en Bombinhas, SC."
+  }
+]

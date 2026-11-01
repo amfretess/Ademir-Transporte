@@ -36,6 +36,8 @@ Para visualizar a estrutura publicada localmente, execute node serve.mjs e abra 
 
 O build copia as imagens e os scripts de origem para dist. As fontes, licenças e o CSS principal existentes são preservados em public/assets e copiados para dist/assets, permitindo também um build do zero. Para Cloudflare Pages com GitHub, consulte [DEPLOY.md](DEPLOY.md).
 
+Desde 01/11/2026, `npm run build` executa uma verificação prévia das entradas. Um checkout incompleto interrompe o build com a lista dos caminhos ausentes. O mapa original está em `public/maps/region.geojson`, acompanhado de `sources.json` e `FONTES.txt`; envie essas pastas e todas as variantes de imagens ao GitHub. A análise do envio incompleto e a orientação para npm 11 estão em [CORRECAO-BUILD-CLOUDFLARE.md](CORRECAO-BUILD-CLOUDFLARE.md).
+
 ## Rotas
 
 Português: /, /fretes, /taxi, /sobre e /contato.

@@ -1,5 +1,7 @@
 # Revisão para GitHub e Cloudflare Pages
 
+Atualização em 01/11/2026: foi identificada uma cópia incompleta no GitHub (100 dos 152 arquivos originalmente entregues). O mapa e outras entradas já constavam no ZIP original. O relatório histórico abaixo registra a preparação de 29/10; o diagnóstico e a correção posteriores estão em [CORRECAO-BUILD-CLOUDFLARE.md](CORRECAO-BUILD-CLOUDFLARE.md).
+
 Data: 29/10/2026. Base local: commit `2855e4a8b10b055ddb10bce4ffc94c4054371989`, que já contém a frase “Seu transporte em boas mãos.” / “Tu transporte en buenas manos.”.
 
 **Resultado: preparação local concluída, com configuração pendente do domínio final e aprovação da primeira implantação. Nenhum push, commit, deploy, alteração de audiência ou mudança de DNS foi realizado nesta tarefa.**

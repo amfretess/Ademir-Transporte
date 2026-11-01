@@ -8,11 +8,12 @@
     "npm": ">=11 <12"
   },
   "scripts": {
+    "prebuild": "node tools/check-build-inputs.mjs",
     "build": "node build.mjs",
     "start": "node serve.mjs",
     "check": "node check.mjs",
     "export": "node export-local.mjs",
-    "test": "node check.mjs && node tests/security.test.mjs && node tests/language.test.mjs && node tests/map.test.mjs && node tests/carousel.test.mjs && node tests/site-config.test.mjs",
+    "test": "node check.mjs && node tests/security.test.mjs && node tests/language.test.mjs && node tests/map.test.mjs && node tests/carousel.test.mjs && node tests/site-config.test.mjs && node tests/build-inputs.test.mjs",
     "check:pages": "node tools/check-pages.mjs"
   }
 }

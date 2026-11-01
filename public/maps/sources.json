@@ -1,0 +1,160 @@
+{
+  "generated": "2026-10-26",
+  "dataset": "region.geojson",
+  "bytes": 295290,
+  "sha256": "8afb254b3dad163ce826d61e2f259e3fd517e033055738046056d2ca1af58e10",
+  "boundingBox": [
+    -49.04,
+    -27.8,
+    -48.1,
+    -26.78
+  ],
+  "coordinateOrder": "longitude, latitude",
+  "sources": [
+    {
+      "name": "IBGE Malhas API v3",
+      "roles": [
+        "land",
+        "coverage"
+      ],
+      "documentation": "https://servicodados.ibge.gov.br/api/docs/malhas?versao=3",
+      "requests": [
+        "https://servicodados.ibge.gov.br/api/v3/malhas/estados/42?formato=application/vnd.geo+json&qualidade=maxima",
+        "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4202453?formato=application/vnd.geo+json&qualidade=maxima",
+        "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4213500?formato=application/vnd.geo+json&qualidade=maxima",
+        "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4208302?formato=application/vnd.geo+json&qualidade=maxima"
+      ],
+      "license": "Compatible with Creative Commons Attribution 4.0 (CC BY 4.0), source credit required.",
+      "licenseEvidence": "https://www.ibge.gov.br/biblioteca/visualizacao/livros/liv102152.pdf",
+      "period": "API default; no year override was supplied. Do not claim newest cadastral/legal boundaries.",
+      "processing": "State polygon clipped to regional bounding rectangle. Municipality geometries preserved from simplified API."
+    },
+    {
+      "name": "OpenStreetMap contributors via VK Maps Overpass instance",
+      "roles": [
+        "road",
+        "point",
+        "connection",
+        "label"
+      ],
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "snapshot": "2026-10-26T16:27:55Z",
+      "queryFile": "overpass-query-compact.txt",
+      "usagePolicy": "https://wiki.openstreetmap.org/wiki/Overpass_API#Public_Overpass_API_instances",
+      "usage": "VK Maps listing explicitly allows use in any project. One regional query was cached; site must not call the service at runtime.",
+      "copyright": "https://www.openstreetmap.org/copyright",
+      "license": "Open Data Commons Open Database License (ODbL) 1.0",
+      "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "processing": "Major road geometry extracted; degree-two chains merged, Douglas-Peucker simplification approx 50 m for base roads, 13 m for connections. Point coordinates rounded to six decimal places. No raster tiles or screenshots."
+    }
+  ],
+  "points": [
+    {
+      "id": "bombinhas",
+      "name": "Bombinhas",
+      "kind": "base",
+      "coordinates": [
+        -48.487569,
+        -27.151916
+      ],
+      "osmType": "node",
+      "osmId": 296141631,
+      "note": "Town reference point, not the company street address"
+    },
+    {
+      "id": "porto-belo",
+      "name": "Porto Belo",
+      "kind": "city",
+      "coordinates": [
+        -48.54244,
+        -27.154242
+      ],
+      "osmType": "node",
+      "osmId": 415523653,
+      "note": ""
+    },
+    {
+      "id": "itapema",
+      "name": "Itapema",
+      "kind": "city",
+      "coordinates": [
+        -48.613778,
+        -27.09472
+      ],
+      "osmType": "node",
+      "osmId": 296141091,
+      "note": ""
+    },
+    {
+      "id": "fln",
+      "name": "Florianópolis",
+      "kind": "airport",
+      "coordinates": [
+        -48.54558,
+        -27.673708
+      ],
+      "osmType": "way",
+      "osmId": 628144667,
+      "iata": "FLN",
+      "terminal": true,
+      "note": "Passenger terminal polygon centroid"
+    },
+    {
+      "id": "nvt",
+      "name": "Navegantes",
+      "kind": "airport",
+      "coordinates": [
+        -48.648851,
+        -26.880442
+      ],
+      "osmType": "way",
+      "osmId": 424906014,
+      "iata": "NVT",
+      "terminal": true,
+      "note": "Passenger terminal polygon centroid"
+    }
+  ],
+  "connectionMethod": {
+    "engine": "Local Dijkstra on cached OSM road graph",
+    "oneway": "yes/1/-1, motorway default and roundabout directions handled; access=no/private and motor_vehicle=no excluded",
+    "notEvaluated": [
+      "Turn restriction relations",
+      "Conditional access restrictions",
+      "Current closures",
+      "Current traffic",
+      "Commercial vehicle-specific restrictions"
+    ],
+    "label": "Illustrative coverage connections along real roads. Not navigation directions or live route/timing estimates.",
+    "origin": "Bombinhas OSM town reference point; not exact company street address.",
+    "snapping": "Routes follow nearest connected road nodes; markers stay at town reference points or terminal polygon centroids. Original point to graph offsets 32–139 m."
+  },
+  "verification": {
+    "allFiveMarkersOnIBGELand": true,
+    "airportTerminalOsmIds": {
+      "FLN": 628144667,
+      "NVT": 424906014
+    },
+    "FLNOfficialSource": "https://floripa-airport.com/como-chegar",
+    "FLNOfficialAddress": "Rodovia Acesso ao Aeroporto, 6.200, Carianos, Florianópolis",
+    "FLNActiveTerminal": "Selected passenger-terminal polygon lies south of main runway; distinct from northern military DTCEA-FL terminal way247558872. Official current airport access page map centre [-48.548386,-27.672555] and current access address align with the selected southern terminal.",
+    "NVT": "Terminal de Passageiros polygon within aerodrome relation6632617, IATA NVT.",
+    "roadCorridors": {
+      "FLN": "BR-101 → Ponte Governador Pedro Ivo Campos → SC-401 → Rodovia João Nilson Zunino / terminal access",
+      "NVT": "BR-101 → BR-470 → Navegantes airport access"
+    },
+    "routeAudit": "route-audit.json"
+  },
+  "attribution": {
+    "visibleText": "Base territorial: IBGE · © OpenStreetMap contributors",
+    "links": [
+      "https://www.ibge.gov.br/",
+      "https://www.openstreetmap.org/copyright"
+    ],
+    "dataDownload": "Offer region.geojson under its per-source notices; OSM-derived portions are ODbL, IBGE source is compatible with CC BY 4.0."
+  },
+  "limits": [
+    "Municipal coverage polygons illustrate named areas; availability must be confirmed with company.",
+    "Map is a geographic service overview, not a cadastral/legal boundary product.",
+    "No live map backend, traffic, location collection, or API keys required."
+  ]
+}

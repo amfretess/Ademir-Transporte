@@ -2,6 +2,8 @@
 
 Preparação local de 29/10/2026. **Nenhum repositório foi enviado ao GitHub e nenhuma implantação ou alteração de DNS foi realizada nesta revisão.** O site atualmente hospedado no Sites permanece como estava.
 
+Atualização de 01/11/2026: o erro de mapa ausente foi reproduzido a partir do repositório GitHub incompleto. Consulte `CORRECAO-BUILD-CLOUDFLARE.md` e a configuração explícita de npm 11 abaixo antes de reenviar os arquivos.
+
 ## Tecnologia e compatibilidade
 
 O projeto usa HTML, CSS e JavaScript nativos, gerados por scripts ES Modules em Node.js. Não usa Astro, React, Vite ou Next.js, não instala bibliotecas de aplicação e não precisa de servidor Node em produção. O npm e seu `package-lock.json` existentes foram mantidos.
@@ -32,7 +34,30 @@ Essa variável atualiza canonical, hreflang, Open Graph, JSON-LD, sitemap e a re
 
 Sem `SITE_URL`, o build mantém o endereço da hospedagem atual para preservar o projeto existente. **Antes de publicar em um domínio novo, configure `SITE_URL` corretamente; manter o fallback na Pages deixaria o SEO apontando para a hospedagem antiga.** Defina também um valor adequado no ambiente Preview, caso o utilize. Para previews temporários, normalmente se mantém a origem canônica da produção aprovada.
 
-Não há variáveis secretas, senhas, tokens de Cloudflare ou credenciais de GitHub necessárias ao código. A conexão entre os serviços usa a integração oficial, fora do repositório. Se precisar sobrescrever a seleção de runtime no painel, `NODE_VERSION=24` deve concordar com `.node-version`; `NPM_VERSION=11.13.0` é opcional para reproduzir a versão local.
+Não há variáveis secretas, senhas, tokens de Cloudflare ou credenciais de GitHub necessárias ao código. A conexão entre os serviços usa a integração oficial, fora do repositório. Se precisar sobrescrever a seleção de runtime no painel, `NODE_VERSION=24` deve concordar com `.node-version`. O campo `engines` declara a versão esperada, mas não instala nem troca o npm da Cloudflare.
+
+### Quando a Cloudflare disponibilizar npm 10
+
+Node 24.22.1 satisfaz `>=24 <25`; o aviso `EBADENGINE` relatado vem do npm 10.9.2, fora de `>=11 <12`. Esse aviso é separado da falha fatal `ENOENT` causada pelo mapa ausente. Não use `npm@latest`, pois uma versão 12 também ficaria fora do intervalo declarado.
+
+Para executar a instalação e o build com a versão npm 11 validada, configure **Production e Preview**, conforme o ambiente usado:
+
+| Campo | Valor |
+| --- | --- |
+| `NODE_VERSION` | `24` (ou manter `.node-version` com `24`) |
+| `SKIP_DEPENDENCY_INSTALL` | `1` |
+| `SITE_URL` | Domínio HTTPS final aprovado |
+| Output directory | `dist` |
+
+Use este **Build command** completo, em uma linha:
+
+```sh
+npx --yes --package=npm@11.13.0 -- npm ci --ignore-scripts --no-audit --no-fund && npx --yes --package=npm@11.13.0 -- npm run build
+```
+
+O `npx` do ambiente obtém o pacote oficial npm 11.13.0 e executa seus comandos sem alterar o npm global. `SKIP_DEPENDENCY_INSTALL=1` evita que a etapa automática anterior da Pages instale o projeto usando npm 10. Essa configuração não depende de `NPM_VERSION` ser reconhecida pela imagem de build. O comando foi validado em uma cópia limpa com Node 24 e npm 11.13.0; a configuração no painel não foi alterada nesta tarefa.
+
+O comando básico do projeto continua sendo `npm run build`. A etapa `prebuild` agora verifica os arquivos obrigatórios e a integridade do mapa antes de importar o gerador. Ela não baixa, inventa ou substitui dados geográficos.
 
 `.env.example` contém somente uma configuração pública de exemplo. O comando `npm run build` não carrega `.env` automaticamente. Configure `SITE_URL` no painel da Pages ou no ambiente do terminal. Não comite arquivos `.env` reais.
 
@@ -44,6 +69,7 @@ Na raiz do projeto, com Node 24 e npm 11:
 npm ci --ignore-scripts --no-audit --no-fund
 npm run build
 npm test
+npm run check
 npm run check:pages
 ```
 
@@ -70,6 +96,10 @@ O CSS original, as fontes e as licenças agora têm entradas preservadas em `pub
 O checkout atual pertence ao repositório do Sites. O seu remote e a identidade `.openai/hosting.json` foram preservados; esse identificador não é uma credencial e não é usado pela Cloudflare Pages.
 
 O pacote `Ademir-Transportes-GitHub-Cloudflare.zip` é uma cópia de trabalho para um repositório próprio. Ele inclui fontes, traduções, ferramentas, testes, licenças e imagens públicas aprovadas, sem `.git`, `dist`, `node_modules`, originais privados ou arquivos do navegador de testes. O projeto original e seu histórico permanecem no local anterior.
+
+Na correção de 01/11/2026, o pacote completo passou a se chamar `Ademir-Transportes-GitHub-Cloudflare-Corrigido.zip`. Ele contém todos os arquivos necessários, inclusive `public/maps/region.geojson`, `sources.json`, `FONTES.txt`, as 88 variantes de imagens e os arquivos que começam com ponto. O ZIP anterior também continha o mapa; a ausência ocorreu no repositório enviado ao GitHub.
+
+**Não envie o ZIP como um arquivo dentro do repositório**: o GitHub não o extrai para a Cloudflare. Extraia o pacote e envie a estrutura de pastas. O envio pelo navegador permite até 100 arquivos por vez; prefira Git/GitHub Desktop para o projeto completo ou use o pacote complementar, que fica abaixo desse limite. Inclua também os arquivos ocultos. Se quiser manter a revisão sem implantação automática, pause as implantações da branch na Cloudflare antes de fazer um commit/push pelo GitHub. Nenhum push foi feito aqui.
 
 1. Extraia o ZIP em uma pasta exclusiva. Confirme que `package.json` e este documento estão na raiz.
 2. Crie um repositório no GitHub, preferencialmente privado durante a revisão.
@@ -127,3 +157,5 @@ Os resultados da preparação estão em `REVISAO-PRODUCAO.md`. Não foram altera
 - [Rotas e páginas 404](https://developers.cloudflare.com/pages/configuration/serving-pages/)
 - [Cabeçalhos](https://developers.cloudflare.com/pages/configuration/headers/)
 - [Previews e controle de acesso](https://developers.cloudflare.com/pages/configuration/preview-deployments/)
+- [Envio de arquivos no GitHub e limite por upload](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
+- [npm exec/npx com uma versão específica](https://docs.npmjs.com/cli/v11/commands/npm-exec/)

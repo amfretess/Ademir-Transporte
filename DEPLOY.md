@@ -133,7 +133,7 @@ Previews da Pages também são públicos por padrão. Se precisar de revisão re
 
 O build gera cinco páginas em cada idioma, além de `404.html` e `es/404.html`. Pages consegue servir os diretórios com `index.html`; o controlador de idiomas já reconhece os caminhos com ou sem barra final. Não adicione uma regra genérica `/* /index.html 200`: este é um site de várias páginas, e esse fallback encobriria erros 404.
 
-Preserve `dist/_headers`. Ele contém CSP por hash, políticas de segurança e cache dos arquivos com hash. O build atual usa no máximo 906 caracteres por linha, dentro do limite de 2.000 da Pages. Não acrescente scripts de analytics ou de terceiros sem revisar a CSP e a privacidade. Não enfraqueça a política para fazer uma integração não solicitada funcionar.
+Preserve `dist/_headers`. Ele contém CSP por hash, políticas de segurança e cache dos arquivos com hash. O tamanho das linhas é validado por `npm run check:pages` contra o limite de 2.000 da Pages. A tag solicitada `G-9JF0G9JMKV` e seus destinos de coleta estão autorizados na CSP, com hash para a inicialização inline e sem `unsafe-inline` ou `unsafe-eval`. O aviso de privacidade foi atualizado em PT/ES. Consulte `GOOGLE-ANALYTICS.md`; outras tags exigem revisar a CSP novamente.
 
 `dist/sitemap.xml` contém as dez páginas e seus alternates PT/ES. `robots.txt` permite indexação da produção e aponta ao sitemap. As fotografias têm nomes com hash, srcset e tamanhos proporcionais; as secundárias dos carrosséis são carregadas sob demanda. Não publique a raiz do repositório como diretório estático: apenas `dist` deve ser servido.
 

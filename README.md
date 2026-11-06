@@ -68,7 +68,7 @@ Fretes e mudanças: +55 47 99781-3000.
 
 Táxi e transfer: +55 47 99730-2343.
 
-Os formulários preparam uma mensagem; abrir o WhatsApp já encaminha seu conteúdo no link ao serviço externo. O visitante decide se envia a mensagem ao atendimento. Nenhuma mensagem é enviada automaticamente ao atendimento, e o código do site não armazena dados do formulário. A única preferência salva pelo site é o idioma escolhido. O táxi admite até quatro passageiros e a reserva depende da confirmação do atendimento. Não foram adicionados rastreadores ou tags de analytics; o projeto não possui identificadores configurados. As práticas internas da hospedagem e do WhatsApp não foram auditadas.
+Os formulários preparam uma mensagem; abrir o WhatsApp já encaminha seu conteúdo no link ao serviço externo. O visitante decide se envia a mensagem ao atendimento. Nenhuma mensagem é enviada automaticamente ao atendimento, e o código do site não armazena dados do formulário. A preferência de idioma é salva pelo próprio site no navegador. O táxi admite até quatro passageiros e a reserva depende da confirmação do atendimento. A tag Google Analytics `G-9JF0G9JMKV` está instalada no head de todas as páginas publicadas, incluindo PT/ES e 404. O Google Analytics pode utilizar cookies para medir visitas e navegação; o aviso de privacidade foi atualizado nos dois idiomas. O HTML independente para uso offline não carrega a tag. Consulte `GOOGLE-ANALYTICS.md`. As práticas internas da hospedagem e do WhatsApp não foram auditadas.
 
 ## Fotografias
 
